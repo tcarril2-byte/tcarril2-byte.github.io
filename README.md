@@ -1,4 +1,4 @@
-## Hi there 👋
+Website for AME 220
 
 <!--
 **tcarril2-byte/tcarril2-byte** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
