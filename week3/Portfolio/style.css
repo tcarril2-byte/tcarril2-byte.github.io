@@ -1,0 +1,61 @@
+/* 
+.public-sans-<uniquifier> {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.baskervville-<uniquifier> {
+  font-family: "Baskervville", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+
+* {
+--base: #925e78ff;
+--borderColor: #fe7f2dff;
+--cardColor: #669d31ff;
+--accentColor: #669bbcff;
+--midnight-violet: #160f29ff;
+}
+
+
+body{
+    background-color: #925e78ff;
+    background-image: url(./assets/css-pattern-by-magicpattern.png);
+}
+
+header{
+    font-family: "Public Sans", sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+    
+}
+
+.title{
+    font-family: "Baskervville", serif;
+        font-weight: 600;
+        font-size: 48px;
+}
+
+h2{
+    font-family: "Public Sans", sans-serif;
+        font-weight: 700;
+}
+
+.cards div{
+    background-color: var(--cardColor);
+    padding: 16px;
+    border: .5px solid var(--borderColor);
+    border-radius: 4px;
+    width: 50%;
+    
+}
+
+.cards div > img {
+    width: 100%;
+    height: 300px;
+}
