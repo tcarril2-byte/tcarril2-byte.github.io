@@ -1,0 +1,68 @@
+/*
+
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.xmind-<uniquifier> {
+  font-family: "Xmind", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+* {
+    --base: #00ff00;
+    --accentColor: #d24dff;
+    --borderColor: #000000;
+
+
+}
+
+body{
+    background-color:var(--base);
+
+}
+
+.card div{
+    width: 500px;
+    height: 750px;
+    background-color: var(--accentColor);
+    padding: 36px;
+    border-radius: 12px;
+    box-shadow: 5px 10px var(--borderColor);
+}
+.image-container img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 12px;
+    object-fit: contain;
+}
+
+
+.card h1{
+    
+    font-family: "Roboto", sans-serif;
+
+    color: white !important;
+    
+}
+.card p{
+    font-family: "Xmind", sans-serif;
+    font-size: 16px;
+    color:white;
+}
+
+.card button{
+    background-color: #000000;
+    color:white;
+}
